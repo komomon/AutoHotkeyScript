@@ -1,12 +1,10 @@
 
 
+## 从此 Typora 代码块有了颜色
+
+给Typora 代码块添加默认颜色，让代码块亮起来
 
 
-从此 Typora 代码块有了颜色
-
-## 给Typora 代码块添加默认颜色
-
-让代码块亮起来
 
 ### 起因
 
@@ -21,38 +19,60 @@
 ### Show_shurufa_v2-1 白名单版
 
 > 白名单版
+>
 > **功能**
-> 	可以实现typora的代码块自动添加语言，默认是java,下面可以通过 code_block自定义设置
-> 	代码块快捷键默认是Ctr+alt+k，可以修改想要修改可以通过下面代码实现
-> 		常用热键：Ctrl=^ alt=! 字母键=字母键，如 a=a
-> 		其他热键看官方文档：https://wyagd001.github.io/v2/docs/Hotkeys.htm
-> 	鼠标指向输入框变成工字型或者按shift键的时候，会提示当前输入法的是中文还是英文，显示时间为1s
-> 	输入法默认也是只有在输入状态时按shift才会切换。
-> 	做了白名单的限制，只在Typora wps word vscode idea Pycharm上显示
+>
+> ​	可以实现typora的代码块自动添加语言，默认是java,下面可以通过 code_block自定义设置
+>
+> ​	代码块快捷键默认是Ctr+alt+k，可以修改想要修改可以通过下面代码实现
+>
+> ​		常用热键：Ctrl=^ alt=! 字母键=字母键，如 a=a
+>
+> ​		其他热键看官方文档：https://wyagd001.github.io/v2/docs/Hotkeys.htm
+>
+> ​	鼠标指向输入框变成工字型或者按shift键的时候，会提示当前输入法的是中文还是英文，显示时间为1s
+>
+> ​	输入法默认也是只有在输入状态时按shift才会切换。
+>
+> ​	做了白名单的限制，只在Typora wps word vscode idea Pycharm上显示
+>
 > 开销很小，占用内存2M左右，CPU几乎不占用。
 
 ### Show_shurufa_v2-2 黑名单版
 
 > 黑名单版
+>
 > **功能**
-> 	可以实现typora的代码块自动添加语言，默认是java,下面可以通过 code_block自定义设置
-> 	代码块快捷键默认是Ctr+alt+k，可以修改想要修改可以通过下面代码实现
-> 		常用热键：Ctrl=^ alt=! 字母键=字母键，如 a=a
-> 		其他热键看官方文档：https://wyagd001.github.io/v2/docs/Hotkeys.htm
-> 	鼠标指向输入框变成工字型或者按shift键且在输入状态时，才会提示当前输入法的是中文还是英文，显示时间为1s
-> 	输入法默认也是只有在输入状态时按shift才会切换。
-> 	做了黑名单的限制，因为wps 不能正常识别，所以剔除了，其他程序都可以。
+>
+> ​	可以实现typora的代码块自动添加语言，默认是java,下面可以通过 code_block自定义设置
+>
+> ​	代码块快捷键默认是Ctr+alt+k，可以修改想要修改可以通过下面代码实现
+>
+> ​		常用热键：Ctrl=^ alt=! 字母键=字母键，如 a=a
+>
+> ​		其他热键看官方文档：https://wyagd001.github.io/v2/docs/Hotkeys.htm
+>
+> ​	鼠标指向输入框变成工字型或者按shift键且在输入状态时，才会提示当前输入法的是中文还是英文，显示时间为1s
+>
+> ​	输入法默认也是只有在输入状态时按shift才会切换。
+>
+> ​	做了黑名单的限制，因为wps 不能正常识别，所以剔除了，其他程序都可以。
+>
 > 开销很小，占用内存2M左右，CPU几乎不占用。
 
 
 
 ### typora_v2 typora代码块快捷键自动添加语言
 
-> 功能
-> 	可以实现typora的代码块自动添加语言，默认是java,下面可以通过 code_block自定义设置
-> 	代码块快捷键默认是Ctr+alt+k，可以修改想要修改可以通过下面代码实现
-> 		常用热键：Ctrl=^ alt=! 字母键=字母键，如 a=a
-> 		其他热键看官方文档：https://wyagd001.github.io/v2/docs/Hotkeys.htm
+> **功能**
+>
+> ​	可以实现typora的代码块自动添加语言，默认是java,下面可以通过 code_block自定义设置
+>
+> ​	代码块快捷键默认是Ctr+alt+k，可以修改想要修改可以通过下面代码实现
+>
+> ​		常用热键：Ctrl=^ alt=! 字母键=字母键，如 a=a
+>
+> ​		其他热键看官方文档：https://wyagd001.github.io/v2/docs/Hotkeys.htm
 
 
 
@@ -68,11 +88,11 @@
 
 ![image-20220319161016008](images/image-20220319161016008.png)
 
-typora 下显示输入法状态，代码块同理
+**typora 下显示输入法状态**
 
 ![image-20220319163134414](images/image-20220319163134414.png)
 
-vscode下显示输入法状态，代码块同理
+**vscode下显示输入法状态**
 
 ![image-20220319161113494](images/image-20220319161113494.png)
 
@@ -116,7 +136,7 @@ vscode下显示输入法状态，代码块同理
 
 
 
-下载链接： 
+下载链接： https://github.com/komomon/AutoHotkeyScript
 
 ### 最后
 
